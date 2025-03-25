@@ -34,6 +34,12 @@ export interface IDashboard {
 
 export const dashboards: IDashboard[] = [
   {
+    name: "Etherealize",
+    url: "https://dashboard.etherealize.io/",
+    image: "etherealize.png",
+    tags: [IDashboardTag.General],
+  },
+  {
     name: "L2 Beat",
     description:
       "Analytics and research website about Ethereum layer 2 scaling, comparing major protocols live on Ethereum today.",
